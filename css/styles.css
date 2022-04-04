@@ -49,17 +49,6 @@
     border-radius: 10px;
 }
 
-.portafolio {
-    display: flex;
-    justify-content: center;
-}
-
-.portafolio .card {
-    margin-top: 40px;
-    width: 18rem;
-}
-
-
 
 @media (max-width: 768px) {
     .description{
