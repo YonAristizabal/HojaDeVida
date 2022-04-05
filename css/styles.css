@@ -1,5 +1,6 @@
 .t-cen {
     text-align: center;
+    
 }
 
 .mar-top {
@@ -25,7 +26,7 @@
 
 .description {
     margin-top: 50px;
-    margin-left: 350px;
+    margin-left: 200px;
 }
 
 .description .tittle {
@@ -52,7 +53,6 @@
 .progress-bar {
     height: 20px;
     border-radius: 10px;
-    color: #1266f1;
 }
 
 
