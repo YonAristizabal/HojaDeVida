@@ -28,8 +28,13 @@
     margin-left: 350px;
 }
 
+.description .tittle {
+    margin-top: 60px;
+}
+
 .description .info {
     margin-top: 60px;
+    text-align: justify;
 }
 
 .description img {
@@ -47,6 +52,7 @@
 .progress-bar {
     height: 20px;
     border-radius: 10px;
+    color: #1266f1;
 }
 
 
