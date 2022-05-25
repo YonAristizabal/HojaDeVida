@@ -12,9 +12,11 @@ Para abrir el proyecto local, se debe clonar desde el siguiente enlace https://g
 
 ## Notas
 Este porfalio se realizo a imagen del video https://www.youtube.com/watch?v=Yz4qwfj6gWw
+***
+Hoja de vida realizada el mayo 24 de 2022
 
 ## Autor
 **Yon Genis Aristizabal**
 - [Profile](https://github.com/YonAristizabal "Yon Aristizabal")
 - [Email](mailto:ygaristizabal81046@umanizales.edu.co?subject=Hola% "Hola!")
-- [Date] (Hoja de vida realizada el mayo 24 de 2022)
+
