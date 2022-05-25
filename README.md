@@ -1,4 +1,5 @@
 # Portafolio Yon Aristizabal
+***
 
 ## Descripción del proyecto
 Este portafolio cuenta con la información de la hoja de vida de Yon Genis Aristizabal, donde se podra observar
@@ -13,8 +14,9 @@ Para abrir el proyecto local, se debe clonar desde el siguiente enlace https://g
 ## Notas
 Este porfalio se realizo a imagen del video https://www.youtube.com/watch?v=Yz4qwfj6gWw
 ***
-Hoja de vida realizada el mayo 24 de 2022
+Hoja de vida realizada el 24 mayo de 2022
 
+***
 ## Autor
 **Yon Genis Aristizabal**
 - [Profile](https://github.com/YonAristizabal "Yon Aristizabal")
