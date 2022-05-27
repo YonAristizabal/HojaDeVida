@@ -5,6 +5,8 @@ const estados = React.useState;
 const cElement = React.createElement;
 const root = ReactDOM.createRoot(app);
 
+
+
 function RenderImg({ id, name, size }) {
     const validador = estados(true);
     const [enabled, setEnabled] = validador;
@@ -33,7 +35,7 @@ function RenderImg({ id, name, size }) {
                 src: src,
             })
             : cElement("i", null, "Sin imagen"),
-        cElement("strong", null, enabled ? name : "Desactivada")
+        cElement("strong", null, enabled ? name : "Yon Genis Aristizabal")
     );
 }
 
@@ -43,7 +45,7 @@ root.render(
     null,
     cElement(RenderImg, {
       id: "2",
-      size: "small"
+      size: "large"
     })
   )
 );
