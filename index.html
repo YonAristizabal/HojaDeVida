@@ -46,6 +46,7 @@
                  Autónoma de Manizales, en el área de Gestión de Tecnología.
                 </p>
             </div>
+            <div id="app"></div>
             <div class="col-md img">
                 <img src="assets/resources/img/01.png" alt="">
             </div>
@@ -221,99 +222,86 @@
 
             <!-- Section: Form -->
             
-            <div class="like_button_container" data-commentid="2"></div>
-
-            <section class="">
-                <form action="">
-
-                    <div class="row d-flex justify-content-center ">
-
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Nombre</strong>
-                            </p>
+            <div class="like_button_container" data-commentid="2">
+                <section class="">
+                    <form action="">
+    
+                        <div class="row d-flex justify-content-center ">
+    
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Nombre</strong>
+                                </p>
+                            </div>
+                            
+                            <div class="col-md-5 col-12">
+    
+                                <div class="form-outline form-white mb-4">
+                                    <input type="text" id="name" class="form-control" />
+                                    <label class="form-label" for="name">Nombre Completo</label>
+                                </div>
+                            </div>
+    
                         </div>
-                        
-                        <div class="col-md-5 col-12">
-
-                            <div class="form-outline form-white mb-4">
-                                <input type="text" id="name" class="form-control" />
-                                <label class="form-label" for="name">Nombre Completo</label>
+    
+                        <div class="row d-flex justify-content-center">
+    
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Correo</strong>
+                                </p>
+                            </div>
+                            
+                            <div class="col-md-5 col-12">
+    
+                                <div class="form-outline form-white mb-4 ">
+                                    <input type="email" id="form5Example21" class="form-control" />
+                                    <label class="form-label" for="form5Example21">Correo Electrónico</label>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                </form>
-            </section>
-            
-            <section class="">
-                <form action="">
-
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Correo</strong>
-                            </p>
-                        </div>
-                        
-                        <div class="col-md-5 col-12">
-
-                            <div class="form-outline form-white mb-4 ">
-                                <input type="email" id="form5Example21" class="form-control" />
-                                <label class="form-label" for="form5Example21">Correo Electrónico</label>
+    
+                        <div class="row d-flex justify-content-center">
+    
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Asunto</strong>
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </form>
-            </section>
-
-            <section class="">
-                <form action="">
-
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Asunto</strong>
-                            </p>
-                        </div>
-                        
-                        <div class="col-md-5 col-12">
-
-                            <div class="form-outline form-white mb-4">
-                                <input type="text" id="text" class="form-control" />
-                                <label class="form-label" for="text">Información del asunto</label>
+                            
+                            <div class="col-md-5 col-12">
+    
+                                <div class="form-outline form-white mb-4">
+                                    <input type="text" id="text" class="form-control" />
+                                    <label class="form-label" for="text">Información del asunto</label>
+                                </div>
                             </div>
+    
                         </div>
-
-                    </div>
-                </form>
-            </section>
-            
-            <section class="">
-                <form action="">
-
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Descripción</strong>
-                            </p>
-                        </div>
-                        
-                        <div class="col-md-5 col-12">
-
-                            <div class="form-outline form-white mb-4">
-                                <input type="text" id="text" class="form-control" />
-                                <label class="form-label" for="text">Detalle del mensaje</label>
+    
+                        <div class="row d-flex justify-content-center">
+    
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Descripción</strong>
+                                </p>
                             </div>
+                            
+                            <div class="col-md-5 col-12">
+    
+                                <div class="form-outline form-white mb-4">
+                                    <input type="text" id="text" class="form-control" />
+                                    <label class="form-label" for="text">Detalle del mensaje</label>
+                                </div>
+                            </div>
+    
                         </div>
+                    </form>
+                    
+                <a class="btn btn-outline-light btn-lg" href="#!" role="button">Enviar</a>
+                </section>
+            </div>
 
-                    </div>
-                </form>
-            </section>
-            <a class="btn btn-outline-light btn-lg" href="#!" role="button">Enviar</a>
         </div>
 
 
@@ -352,6 +340,7 @@
 
     <!-- Load our React component. -->
     <script src="components/like-button/like_button.js"></script>
+    <script src="components/render_img/render_img.js"></script>
 
 </html>
 
